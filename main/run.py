@@ -7,6 +7,12 @@ import base.HTMLTestRunner as HTMLTestRunner
 from utils.send_email import sendEmail
 from utils.get_config import getConfig
 
+import sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+print("rootPath",rootPath)
+
 log = utils.Log.logger
 on_off = getConfig().get_config("email","on_off")
 usr_list = getConfig().get_config("email","recv_usr_list")
