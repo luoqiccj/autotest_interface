@@ -1,4 +1,9 @@
 import os
+import sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
 import unittest
 from utils.operate_excel import operateExcel
 from data.get_data import getData
@@ -6,16 +11,6 @@ import utils.Log
 import base.HTMLTestRunner as HTMLTestRunner
 from utils.send_email import sendEmail
 from utils.get_config import getConfig
-import utils.Log
-import sys
-
-log = utils.Log.logger
-
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
-sys.path.append(rootPath)
-log.info("rootPath=%s",rootPath)
-
 
 log = utils.Log.logger
 on_off = getConfig().get_config("email","on_off")
