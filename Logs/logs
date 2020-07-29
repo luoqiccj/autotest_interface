@@ -1,23 +1,70 @@
-2020-07-29 12:55:36,437 - run.py[line:31]  - INFO - resultPath=C:\Users\luoqi\PycharmProjects\Interface3\testReport\report.html
-2020-07-29 12:55:36,440 - run.py[line:54]  - INFO - case_name = queryCompanyByPage.py
-2020-07-29 12:55:36,944 - run.py[line:54]  - INFO - case_name = queryCompanyByPage1.py
-2020-07-29 12:55:36,946 - run.py[line:63]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>
-2020-07-29 12:55:36,947 - run.py[line:63]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>
-2020-07-29 12:55:36,948 - run.py[line:76]  - INFO - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>]>
-2020-07-29 12:55:36,958 - run_test.py[line:15]  - INFO - file_name = None
-2020-07-29 12:55:37,216 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
-2020-07-29 12:55:37,216 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
-2020-07-29 12:55:37,452 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
-2020-07-29 12:55:37,453 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
-2020-07-29 12:55:39,345 - run_test.py[line:15]  - INFO - file_name = None
-2020-07-29 12:55:39,599 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
-2020-07-29 12:55:39,599 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
-2020-07-29 12:55:39,826 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
-2020-07-29 12:55:39,826 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
-2020-07-29 12:55:41,111 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
-2020-07-29 12:55:42,344 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
-2020-07-29 12:55:43,575 - run.py[line:89]  - INFO - *********TEST END*********
-2020-07-29 12:55:43,577 - send_email.py[line:39]  - INFO - file_name = report.html
-2020-07-29 12:55:43,579 - send_email.py[line:56]  - INFO - usr_list = ccaiqiao@tianjianpro.com,luoqiccj@163.com
-2020-07-29 12:55:43,579 - send_email.py[line:57]  - INFO - msg['To']  = ccaiqiao@tianjianpro.com,luoqiccj@163.com
-2020-07-29 12:55:43,580 - send_email.py[line:59]  - INFO - email_host = smtp.163.com
+2020-07-29 13:00:43,566 - run.py[line:31]  - INFO - resultPath=C:\Users\luoqi\PycharmProjects\Interface3\testReport\report.html
+2020-07-29 13:00:43,568 - run.py[line:54]  - INFO - case_name = queryCompanyByPage.py
+2020-07-29 13:00:43,650 - run.py[line:54]  - INFO - case_name = queryCompanyByPage1.py
+2020-07-29 13:00:43,652 - run.py[line:63]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:00:43,652 - run.py[line:63]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:00:43,652 - run.py[line:76]  - INFO - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>]>
+2020-07-29 13:00:43,654 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:00:43,895 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:00:43,895 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:00:44,128 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:00:44,129 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:00:45,351 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:00:45,610 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:00:45,610 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:00:45,836 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:00:45,837 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:00:47,069 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:00:48,297 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:00:49,526 - run.py[line:89]  - INFO - *********TEST END*********
+2020-07-29 13:00:49,528 - send_email.py[line:39]  - INFO - file_name = report.html
+2020-07-29 13:00:49,530 - send_email.py[line:56]  - INFO - usr_list = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:00:49,530 - send_email.py[line:57]  - INFO - msg['To']  = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:00:49,531 - send_email.py[line:59]  - INFO - email_host = smtp.163.com
+2020-07-29 13:03:14,011 - run.py[line:35]  - INFO - resultPath=C:\Users\luoqi\PycharmProjects\Interface3\testReport\report.html
+2020-07-29 13:03:14,016 - run.py[line:58]  - INFO - case_name = queryCompanyByPage.py
+2020-07-29 13:03:14,131 - run.py[line:58]  - INFO - case_name = queryCompanyByPage1.py
+2020-07-29 13:03:14,133 - run.py[line:67]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:03:14,133 - run.py[line:67]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:03:14,133 - run.py[line:80]  - INFO - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>]>
+2020-07-29 13:03:14,135 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:03:14,391 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:03:14,391 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:03:14,618 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:03:14,618 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:03:15,832 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:03:16,088 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:03:16,088 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:03:16,314 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:03:16,315 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:03:17,549 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:03:18,828 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:03:20,117 - run.py[line:93]  - INFO - *********TEST END*********
+2020-07-29 13:03:20,119 - send_email.py[line:39]  - INFO - file_name = report.html
+2020-07-29 13:03:20,120 - send_email.py[line:56]  - INFO - usr_list = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:03:20,121 - send_email.py[line:57]  - INFO - msg['To']  = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:03:20,122 - send_email.py[line:59]  - INFO - email_host = smtp.163.com
+2020-07-29 13:03:32,678 - run.py[line:17]  - INFO - rootPath=C:\Users\luoqi\PycharmProjects\Interface3
+2020-07-29 13:03:32,681 - run.py[line:35]  - INFO - resultPath=C:\Users\luoqi\PycharmProjects\Interface3\testReport\report.html
+2020-07-29 13:03:32,682 - run.py[line:58]  - INFO - case_name = queryCompanyByPage.py
+2020-07-29 13:03:32,763 - run.py[line:58]  - INFO - case_name = queryCompanyByPage1.py
+2020-07-29 13:03:32,765 - run.py[line:67]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:03:32,765 - run.py[line:67]  - INFO - test_name = <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>
+2020-07-29 13:03:32,765 - run.py[line:80]  - INFO - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage.test_queryCompanyByPage testMethod=testcase02>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase01>, <queryCompanyByPage1.test_queryCompanyByPage testMethod=testcase02>]>]>]>
+2020-07-29 13:03:32,768 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:03:33,008 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:03:33,009 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:03:33,235 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:03:33,235 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:03:34,520 - run_test.py[line:15]  - INFO - file_name = None
+2020-07-29 13:03:34,768 - operate_db.py[line:30]  - INFO - res = ('002ea518b1086039437a494ecb90352c', '江西三鑫医疗科技股份有限公司', '三鑫医疗', ' ', '300453.SZ', 'jxsxylkjgfyxgs', '1', '360100', None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, datetime.datetime(2019, 8, 8, 20, 16, 58, 694000), None, '03')
+2020-07-29 13:03:34,768 - operate_db.py[line:31]  - INFO - self.dbsetion = sit-database
+2020-07-29 13:03:34,995 - operate_db.py[line:30]  - INFO - res = ('Jzkol5HRiwpziqnZDSqxtPL6Ujmx0LzK', '深圳鼎加弘思饮品科技有限公司', '鼎加弘思', ' ', None, 'wfcz', '0', '440300', None, datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', datetime.datetime(2020, 6, 9, 18, 31, 50, 218551), 'pan_ied', '03', None, None, None)
+2020-07-29 13:03:34,995 - operate_db.py[line:31]  - INFO - self.dbsetion = uat-database
+2020-07-29 13:03:36,228 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:03:37,439 - run_test.py[line:15]  - INFO - file_name = ../dataconfig/queryCompanyByPage1.xlsx
+2020-07-29 13:03:38,640 - run.py[line:93]  - INFO - *********TEST END*********
+2020-07-29 13:03:38,642 - send_email.py[line:39]  - INFO - file_name = report.html
+2020-07-29 13:03:38,643 - send_email.py[line:56]  - INFO - usr_list = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:03:38,643 - send_email.py[line:57]  - INFO - msg['To']  = ccaiqiao@tianjianpro.com,luoqiccj@163.com
+2020-07-29 13:03:38,644 - send_email.py[line:59]  - INFO - email_host = smtp.163.com
